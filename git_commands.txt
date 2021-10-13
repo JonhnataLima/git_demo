@@ -1,1 +1,3 @@
-git init > start git project (current dir)
+- git init	> start git project (current dir).
+- git status	> outputs information about your current situation.
+- git add	> add a new file to your branch.
