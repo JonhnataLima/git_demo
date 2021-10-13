@@ -18,6 +18,7 @@
 -
 - git commit -m	"..."		> commit the modifications.
 - git commit -am "..."		> atalho para pular (git add) de arqs rastreados para commited (pulando Staged).
+- git commit --amend --no-edit	> atualiza ou adiciona arquivo de Staged para Commited, reutilizando o último commit.
 - 
 - git push			> enviar para repositório na nuvem.
 - git pull			> trazer alterações da nuvem.
