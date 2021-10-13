@@ -1,4 +1,38 @@
-- git init	> start git project (current dir).
-- git status	> outputs information about your current situation.
-- git add	> add a new file to your branch.
+# You need translate to English...
+
+- git init			> start git repository.
+- git status			> outputs information about current situation.
+- git add .			> add an Untracked file (working Directory) to Stanged (Stage area), so you can commit it.
+- git log			> Informações do histórico de commits.
+- git log --oneline		> mostra apenas parte do id do commit e comentário.  
+-
+- git commit -m	"..."		> commit the modifications.
+- git commit -am "..."		> atalho para pular (git add) de arqs rastreados para commited (pulando Staged).
 - 
+- git push			> enviar para repositório na nuvem.
+- git pull			> trazer alterações da nuvem.
+- git clone			> trazer um repositório da nuvem para máquina (respositório local).
+
+- git remote -v 		> check cloud repositorys
+- git branch -M main		> transformando a branch principal master para main.
+- git push -u origin main	> enviando repositório para local na nuven.
+
+- git config --global pull.rebase false		> merge (the default stratgy).
+
+=======================================================
+>>>>>>>>>>>>>>>> Create key <<<<<<<<<<<<<<<<
+
+- ssh-keygen -t rsa -b 4096 -C "seu_email@email.com"	> Configurar a chave criada em SSH and GPG keys no github.
+- ~/.ssh/id_rsa.pub					> dir e arquivo onde contem a chave.
+- 
+- eval "ssh-agent -s"					> Start the ssh-agent in the background (terminal).
+- ssh-agent ~/.ssh/id_rsa				> Add your SSH private key to the ssh-agent.
+- 
+=======================================================
+>>>>>>>>>>>>>>>> Add remote repository <<<<<<<<<<<<<<<<
+- git remote add origin SSH				> SSH - link de configuração SSH criado.
+- git branch -M main
+- git push -u origin main
+- 
+=======================================================
+
