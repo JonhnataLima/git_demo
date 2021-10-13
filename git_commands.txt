@@ -8,6 +8,9 @@
 - git add file			> track file to Stage area. 
 - git add *.md			> track all extension files with '.md' to Stage area.
 -
+- git diff			> mostra as modificações realizadas nos arquivos existentes desde o último commit.
+- git diff --staged		> mostra as modificações realizadas dos arquivos que estão em Staged.
+-
 - git log			> Informações do histórico de commits.
 - git log --oneline		> mostra apenas parte do id do commit e comentário.  
 - git log --author=Jonhnata	> search the commit by author (Jonhnata in this case).
