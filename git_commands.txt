@@ -7,6 +7,11 @@
 - git add .			> add an Untracked file (working Directory) to Stanged (Stage area), so you can commit it.
 - git log			> Informações do histórico de commits.
 - git log --oneline		> mostra apenas parte do id do commit e comentário.  
+- git log --author=Jonhnata	> search the commit by author (Jonhnata in this case).
+- git log --grep="Init"		> busca as alterações onde há a palavra Init.
+- git log -n 5			> output the last 5 commits.
+- git log --since=2020-10-01	> output the commits since the date.
+- git log --untill=2020-09-30	> output the commits until the date.
 -
 - git commit -m	"..."		> commit the modifications.
 - git commit -am "..."		> atalho para pular (git add) de arqs rastreados para commited (pulando Staged).
