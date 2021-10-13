@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # You need translate to English...
 
 - git init			> start git repository.
@@ -36,3 +37,9 @@
 - 
 =======================================================
 
+=======
+- git init	> start git project (current dir).
+- git status	> outputs information about your current situation.
+- git add	> add a new file to your branch.
+- LINHA QUE NÃO QUERO
+>>>>>>> a4e4859c2b71f234989b1382fdf400b9c34d00a0
