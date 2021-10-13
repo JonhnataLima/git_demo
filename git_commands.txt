@@ -4,7 +4,10 @@
 -
 - git init			> start git repository.
 - git status			> outputs information about current situation.
-- git add .			> add an Untracked file (working Directory) to Stanged (Stage area), so you can commit it.
+- git add .			> add all Untracked files (working Directory) to Stanged (Stage area), so you can commit it.
+- git add file			> track file to Stage area. 
+- git add *.md			> track all extension files with '.md' to Stage area.
+-
 - git log			> Informações do histórico de commits.
 - git log --oneline		> mostra apenas parte do id do commit e comentário.  
 - git log --author=Jonhnata	> search the commit by author (Jonhnata in this case).
