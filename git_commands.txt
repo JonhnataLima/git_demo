@@ -1,5 +1,7 @@
 # You need translate to English...
 
+- git config --list		> See initial configurations.
+-
 - git init			> start git repository.
 - git status			> outputs information about current situation.
 - git add .			> add an Untracked file (working Directory) to Stanged (Stage area), so you can commit it.
@@ -18,9 +20,15 @@
 - git push -u origin main	> enviando repositório para local na nuven.
 
 - git config --global pull.rebase false		> merge (the default stratgy).
+-
 
 =======================================================
->>>>>>>>>>>>>>>> Create key <<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>> Configuração Inicial <<<<<<<<<<<<<<<<
+- git config --global user.name "Seu nome completo"	> Informar nome
+- git config --global user.email seuemail@email.com	> Informar email
+-
+=======================================================
+>>>>>>>>>>>>>>>>>>>>> Create key <<<<<<<<<<<<<<<<<<<<<
 
 - ssh-keygen -t rsa -b 4096 -C "seu_email@email.com"	> Configurar a chave criada em SSH and GPG keys no github.
 - ~/.ssh/id_rsa.pub					> dir e arquivo onde contem a chave.
