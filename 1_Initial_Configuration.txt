@@ -1,10 +1,10 @@
 =======================================================
-- ...
+- Set git informations
 
 
 >>>>>>>>>>>>>>>> Configuração Inicial <<<<<<<<<<<<<<<<
-- git config --global user.name "Seu nome completo"     > Informar nome
-- git config --global user.email seuemail@email.com     > Informar email
+- git config --global user.name "Your name"		> Set your name
+- git config --global user.email youremail@email.com	> Set your email
 -
 =======================================================
 
