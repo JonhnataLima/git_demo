@@ -1,8 +1,8 @@
 =======================================================
 >>>>>>>>>>>>>>>>>>>>> Create key <<<<<<<<<<<<<<<<<<<<<
 
-- ssh-keygen -t rsa -b 4096 -C "seu_email@email.com"    > Configurar a chave criada em SSH and GPG keys no github.
-- ~/.ssh/id_rsa.pub                                     > dir e arquivo onde contem a chave.
+- ssh-keygen -t rsa -b 4096 -C "seu_email@email.com"    > The genarated key must be informed on SSH and GPG keys in github.
+- ~/.ssh/id_rsa.pub                                     > Dotfile where the was saved.
 -
 - eval "ssh-agent -s"                                   > Start the ssh-agent in the background (terminal).
 - ssh-agent ~/.ssh/id_rsa                               > Add your SSH private key to the ssh-agent.
