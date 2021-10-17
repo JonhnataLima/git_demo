@@ -7,3 +7,5 @@ See more details about git commands on <a>https://git-scm.com/docs </a>
 
 2. Start a review of major git commands and practicing English.
 
+fiz instalação do wakatime para pegar atividades quando usar o terminal...
+
