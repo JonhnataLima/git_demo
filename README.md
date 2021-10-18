@@ -5,7 +5,8 @@ See more details about git commands on <a>https://git-scm.com/docs </a>
 
 1. I know how to push modifications to GitHub
 
-2. Start a review of major git commands and practicing English.
+2. Start a review of major git commands and practicing English
 
-fiz instalação do wakatime para pegar atividades quando usar o terminal...
+3. Criar um novo diretório remoto no GitHub
+
 
